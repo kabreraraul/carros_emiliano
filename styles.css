@@ -1,0 +1,81 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+    color: #004e92;
+    border-bottom: 3px solid #004e92;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+p {
+    color: #004e92;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: #004e92;
+    border: 1px solid #555;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 30%;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 25px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #fff;
+    color: #004e92;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background
